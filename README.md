@@ -1,13 +1,33 @@
-# Your GitHub Learning Lab Repository for Introducing GitHub
+세미프로젝트
 
-Welcome to **your** repository for your GitHub Learning Lab course. This repository will be used during the different activities that I will be guiding you through. See a word you don't understand? We've included an emoji 📖 next to some key terms. Click on it to see its definition.
-
-Oh! I haven't introduced myself...
-
-I'm the GitHub Learning Lab bot and I'm here to help guide you in your journey to learn and master the various topics covered in this course. I will be using Issue and Pull Request comments to communicate with you. In fact, I already added an issue for you to check out.
-
-![issue tab](https://lab.github.com/public/images/issue_tab.png)
-
-I'll meet you over there, can't wait to get started!
-
-This course is using the :sparkles: open source project [reveal.js](https://github.com/hakimel/reveal.js/). In some cases we’ve made changes to the history so it would behave during class, so head to the original project repo to learn more about the cool people behind this project.
+기능
+회원관리
+1. 이용자의 로그인 및 회원가입 - 팀원
+2. 이용자의 마이 페이지 기능 - 김현정
+3. 타 SNS 로그인 연동 기능 - 최태준, 남민혁
+보안기능
+1. 개인 정보 암호화 기능 - 한동규
+2. 회원 가입시 인증번호 검사하는 기능 - 한동규
+3. 로그인시 보안문자 입력하는 기능 - 김현정
+게시판 기능
+1. 추천기능 - 남민혁, 김현정
+2. 관리기능(CURD) - 팀원
+3. 페이징 - 이수연
+4. 파일 업로드 - 남민혁
+5. 실종 위치 제공 - 이수연, 최태준
+기타 추가 기능
+1. 알림 기능 - 한동규
+2. 채팅 기능 - 최태준
+3. 번역 기능 - 한동규
+4. 지도 기능 - 최태준
+5. 결제 기능 - 한동규
+기능 구현
+1. 타 SNS 로그인 : 네이버와 카카오
+2. 암호화 및 복호화: aes256
+3. 인증번호 : 휴대폰(네이버 클라우드 sms), 이메일 (gmail)
+4. 보안문자 : reCAPTCHA
+5. 추천기능 : 아파치 재단 mahout 인공지능 구현
+6. 위치제공 : 카카오 지도 api
+7. 알림기능 : 네이버 클라우드 sms
+8. 채팅기능 : 서블릿 소켓
+9. 결제기능 : 아임포트
